@@ -1,0 +1,56 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+build/
+dist/
+.tmp/
+.temp/
+
+# Tests / coverage
+coverage/
+.jest/
+jest-cache/
+jest-test-results.json
+.nyc_output/
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+# If you generate fixtures dynamically:
+# cypress/fixtures/*.generated.*
+
+# Env files (keep secrets out of git)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Tooling caches
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+turbo/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.log
+*.pid
+*.seed
+*.tgz
