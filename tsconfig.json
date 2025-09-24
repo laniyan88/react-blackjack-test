@@ -1,0 +1,30 @@
+{
+   "compilerOptions": {
+     "target": "es5",
+     "lib": ["dom", "dom.iterable", "es2019"],
+     "module": "esnext",
+     "moduleResolution": "node",
+     "jsx": "react",
+ 
+     "allowJs": false,
+     "noEmit": true,
+     "skipLibCheck": true,
+ 
+     "strict": true,
+     "noImplicitOverride": true,
+     "noPropertyAccessFromIndexSignature": true,
+     "exactOptionalPropertyTypes": true,
+ 
+     "esModuleInterop": true,
+     "allowSyntheticDefaultImports": true,
+ 
+     "forceConsistentCasingInFileNames": true,
+     "noFallthroughCasesInSwitch": true,
+     "resolveJsonModule": true,
+     "isolatedModules": true,
+ 
+     "types": ["jest", "node"]
+   },
+   "include": ["src"]
+ }
+ 

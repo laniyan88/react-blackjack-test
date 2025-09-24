@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hand shows score and cards; snapshot 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Player hand"
+    class="wrapper"
+  >
+    <div
+      aria-label="Player score"
+      class="score "
+    >
+      <h3>
+        20
+      </h3>
+    </div>
+    <div
+      aria-hidden="false"
+      class="flip enter"
+    >
+      <div
+        class="flipInner "
+        style="animation-delay: 0ms;"
+      >
+        <img
+          alt="ace of clubs"
+          class="face front"
+          draggable="false"
+          src="/SVG-cards/png/1x/club_1.png"
+        />
+        <img
+          alt="Face-down card"
+          class="face back"
+          draggable="false"
+          src="/SVG-cards/png/1x/back-blue.png"
+        />
+      </div>
+    </div>
+    <div
+      aria-hidden="false"
+      class="flip enter"
+    >
+      <div
+        class="flipInner "
+        style="animation-delay: 60ms;"
+      >
+        <img
+          alt="9 of clubs"
+          class="face front"
+          draggable="false"
+          src="/SVG-cards/png/1x/club_9.png"
+        />
+        <img
+          alt="Face-down card"
+          class="face back"
+          draggable="false"
+          src="/SVG-cards/png/1x/back-blue.png"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

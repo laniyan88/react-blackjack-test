@@ -1,0 +1,21 @@
+{
+    "root": true,
+    "extends": ["react-app", "react-app/jest"],
+    "rules": {
+      "no-console": ["warn", { "allow": ["warn", "error"] }],
+      "eqeqeq": ["error", "always", { "null": "ignore" }],
+      "curly": ["error", "all"],
+      "prefer-const": "warn",
+      "no-var": "error"
+    },
+    "overrides": [
+      {
+        "files": ["src/__tests__/**/*.{ts,tsx}"],
+        "rules": {
+          "testing-library/no-node-access": "off",
+          "testing-library/no-container": "off"
+        }
+      }
+    ]
+  }
+  

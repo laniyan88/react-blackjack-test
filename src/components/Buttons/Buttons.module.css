@@ -1,0 +1,31 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.25rem 0.5rem 1rem;
+}
+
+.button {
+  padding: 14px 16px;
+  border-radius: 0.6rem;
+  font-weight: bold;
+  min-width: 140px;
+  background-color: #508672;
+  font-size: 1.1rem;
+  color: white;
+  border: solid 2px #9acdbb;
+  text-transform: uppercase;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.button:hover { opacity: 1; }
+
+@media (max-width: 560px) {
+  .buttons { gap: 0.75rem; }
+  .button {
+    min-width: 0;
+    flex: 1 1 auto;
+    font-size: 1rem;
+    padding: 14px;
+  }
+}
