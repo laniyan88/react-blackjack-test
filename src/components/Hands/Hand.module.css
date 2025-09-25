@@ -1,16 +1,16 @@
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
-  align-items: center;
-  justify-content: flex-start;
-  margin: 0.75rem 0;
-  padding-left: 1rem;
+  justify-content: center;
   gap: 0.5rem;
+  height: 16vh;
+  margin: 10px 0;
 }
 
 .score {
   font-size: 1rem;
   background-color: #004b2d;
+  align-self: center;
   padding: 1rem;
   border-radius: 5rem;
   width: 3rem;

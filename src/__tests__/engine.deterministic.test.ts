@@ -27,7 +27,7 @@ describe("engine (deterministic scenarios)", () => {
     expect(end.gameOver).toBe(true);
 
     expect(end.dealer.length).toBe(4);
-    expect(end.dealerStatus === WIN || /Dealer .*wins/i.test(end.message)).toBeTruthy();
+    expect(end.dealerStatus === WIN || /Dealer .*wins/i.it(end.message)).toBeTruthy();
   });
 
   it("hit: player draws a Ten and busts (12 + 10 = 22)", () => {
