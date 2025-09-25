@@ -19,13 +19,15 @@ export default function App() {
           <StatsPanelConnected />
           <HandsConnected />
           <MessageBarConnected />
-          <KeyboardHelpConnected />
           <ButtonsConnected />
+          <KeyboardHelpConnected />
         </AppProviders>
-        <p className="srOnly">
-          Keyboard shortcuts: D to Deal, H to Hit, S to Stand, R to Play Again, B to Add Funds (when broke).
-        </p>
       </div>
+      <p className="keyboard-message">
+        Keyboard shortcuts: <strong>D to Deal</strong> <strong>H to Hit</strong>{" "}
+        <strong>S to Stand</strong> <strong>R to Play Again</strong>{" "}
+        <strong>B to Add Funds (when broke)</strong>
+      </p>
     </div>
   );
 }
