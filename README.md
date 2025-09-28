@@ -21,7 +21,7 @@ Includes unit tests (Jest + React Testing Library) and end-to-end tests (Cypress
 
 1. **Clone the repo**
    ```bash
-   git clone git@github.com:stuart-robinson/cards.git
+   git clone git@github.com:laniyan88/react-blackjack-task.git
    cd cards
    ```
 2. **Install dependencies**
